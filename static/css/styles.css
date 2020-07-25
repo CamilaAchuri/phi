@@ -42,6 +42,7 @@ html, body {
 
 #banner-two {
   padding: 128px 0;
+  background-image: url("../img/lines.png");
 }
 
 .container-banner-two {
@@ -53,12 +54,11 @@ html, body {
   position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -23%);
+    transform: translate(-50%, -73%);
 }
 
 #info-banner-two {
     width: 50%;
-    background-image: url("../img/lines.png");
 }
 
 #view {
