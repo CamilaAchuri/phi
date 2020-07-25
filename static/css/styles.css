@@ -21,7 +21,8 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	position: relative;
+    position: relative;
+    z-index: 1;
 }
 
 #names-autors {
@@ -84,7 +85,7 @@ body {
 }
 
 #banner-three {
-	height: 524px;
+	height: 590px;
 	background-image: url("../img/view.png");
 }
 
