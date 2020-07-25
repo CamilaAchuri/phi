@@ -1,63 +1,61 @@
-*::before,
-*::after,
-* {
-	box-sizing: inherit;
-	margin: 0;
-	padding: 0;
+*::before,*::after,*{
+  box-sizing: inherit;  
+  margin: 0;
+  padding: 0;
 }
 
-html,
-body {
-	box-sizing: border-box;
+html, body {
+  box-sizing: border-box;
 }
+
 
 #banner-one-two {
-	position: relative;
-}
+  position: relative;
+}   
 
 #banner-one {
-	height: 100vh;
-	background-image: url("../img/cover.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-    position: relative;
-    z-index: 1;
-}
+  height:100vh;
+  background-image: url("../img/cover.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}   
 
 #names-autors {
-	color: #ffffff;
-	position: absolute;
-	right: 17px;
-	bottom: 35px;
-	writing-mode: vertical-rl;
-	text-transform: uppercase;
-	letter-spacing: 2px;
+    color: #ffffff;
+    position: absolute;
+    right: 17px;
+    bottom: 35px;
+    writing-mode: vertical-rl;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 #circle {
-	display: block;
-	position: absolute;
-	top: 100%;
-	left: 50%;
-	transform: translate(-50%, -80%);
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%,-80%);
 }
 
 #banner-two {
-	padding: 128px 0;
+  padding: 128px 0;
+
 }
 
 .container-banner-two {
-	max-width: 60%;
-	margin: 0 auto;
+    max-width: 60%;
+    margin: 0 auto;
 }
 
 #brain {
-	position: absolute;
-	top: 137px;
-	left: 50%;
-	transform: translateX(-50%);
-	/*position: absolute;
+  position: absolute;
+  top: 137px;
+  left: 50%;
+  transform: translateX(-50%);
+  /*position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -33%);
@@ -65,46 +63,48 @@ body {
 }
 
 #info-banner-two {
-	width: 50%;
+    width: 50%;
 }
 
 #view {
-	max-width: 100%;
+ max-width: 100%;
 }
 
 .background-top {
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
+
 .background-center {
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #banner-three {
-	height: 590px;
-	background-image: url("../img/view.png");
+    height: 590px;
+    background-image: url("../img/view.png");
 }
 
 #chip {
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 #banner-four {
-	margin-top: -150px;
-	position: relative;
-	z-index: -1 !important;
+    margin-top:  -150px;
+    position: relative;
+ z-index: -1 !important;
 }
 
 #banner-five {
-	height: 667px;
-	background-image: url(../img/man.png);
-	position: relative;
-	margin-top: -161px;
-	z-index: -2;
+    height: 667px;
+    background-image: url(../img/man.png);
+    position: relative;
+    margin-top: -161px;
+    z-index: -2;
 }
+
