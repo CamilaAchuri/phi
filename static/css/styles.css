@@ -42,7 +42,6 @@ html, body {
 
 #banner-two {
   padding: 128px 0;
-
 }
 
 .container-banner-two {
@@ -52,18 +51,14 @@ html, body {
 
 #brain {
   position: absolute;
-  top: 137px;
-  left: 50%;
-  transform: translateX(-50%);
-  /*position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -33%);
-    */
+    transform: translate(-50%, -23%);
 }
 
 #info-banner-two {
     width: 50%;
+    background-image: url("../img/lines.png");
 }
 
 #view {
