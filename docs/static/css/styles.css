@@ -101,7 +101,7 @@ h3 {
 
 #banner-two {
   padding: 128px 0;
-  /*background-image: url("../img/lines.png");*/
+  background-image: url("../img/lines.svg");
 }
 
 .container-banner-two {
@@ -158,7 +158,7 @@ h3 {
 }
 
 #banner-seven {
-
+  height: 1000px;
 }
 
 #map {
@@ -173,9 +173,9 @@ h3 {
 }
 
 #container-form {
+  background: #ffffff;
   height: 599px;
   width: 598px;
-  display: block;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -215,4 +215,9 @@ button {
   color: #ffffff;
   border: 0px;
   border-radius: 6px;
+}
+
+#banner-eight {
+  background-color: #000000;
+  height: 500px;
 }
