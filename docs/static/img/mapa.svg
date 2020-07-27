@@ -13,7 +13,9 @@
                 </g>
                 <g id="Group-5-Copy" transform="translate(129.000000, 91.000000)">
                     <circle id="Oval" fill="#000000" cx="53" cy="53" r="53"></circle>
-                    <text id="130M" font-family="Montserrat-ExtraBold, Montserrat" font-size="24" font-weight="600" fill="#FFFFFF">
+                    <text class = "animate__animated animate__bounceInDown
+
+" id="130M" font-family="Montserrat-ExtraBold, Montserrat" font-size="24" font-weight="600" fill="#FFFFFF">
                         <tspan x="21.236" y="62">130M</tspan>
                     </text>
                 </g>

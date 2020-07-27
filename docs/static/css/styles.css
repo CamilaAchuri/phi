@@ -119,6 +119,8 @@ h3 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -70%);
+    animation: zoomIn; 
+    animation-duration: 2s; 
 }
 
 #info-banner-two {
@@ -237,4 +239,9 @@ button {
 
 #end-names {
  margin-top: 25px;
+}
+
+
+.animate__animated.animate__slideInLeft {
+  --animate-duration: 2s;
 }
