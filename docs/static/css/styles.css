@@ -78,16 +78,21 @@ h3 {
   position: relative;
 }   
 
-#names-autors {
-  color: #dee9ff;
+
+#names-autors-giro {
+  writing-mode: vertical-rl;
   position: absolute;
   right: 3%;
   bottom: 9%;
-  writing-mode: vertical-rl;
+}
+
+.names-autors {
+  color: #ffffff;
   text-transform: uppercase;
-  letter-spacing: 4px;
-  font-size: 11px;
+  letter-spacing: 5px;
+  font-size: 10px;
   line-height: 25px;
+  text-align: center;
 }
 
 #circle {
@@ -158,7 +163,7 @@ h3 {
 }
 
 #banner-seven {
-  height: 1000px;
+  height: 1100px;
 }
 
 #map {
@@ -189,7 +194,7 @@ h3 {
 }
 
 #title-form {
-  margin-top: 72px;
+  margin-top: 25px;
   margin-bottom: 44px;
   font-size: 36px;
   font-weight: 900;
@@ -218,7 +223,18 @@ button {
   border-radius: 6px;
 }
 
-#banner-eight {
+#footer {
   background-color: #000000;
-  height: 500px;
+  height: 350px;
+}
+
+.branding-position {
+  padding-top: 11%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#end-names {
+ margin-top: 25px;
 }
