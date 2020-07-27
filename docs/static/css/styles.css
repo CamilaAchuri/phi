@@ -133,7 +133,7 @@ h3 {
   position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -70%);
+    transform: translate(-50%, -80%);
     animation: zoomIn; 
     animation-duration: 2s; 
 }
@@ -154,7 +154,7 @@ h3 {
 #banner-three {
     height: 590px;
     background-image: url("../img/view.png");
-    z-index: 10;
+    z-index: 1;
 }
 
 
@@ -178,10 +178,10 @@ h3 {
 }
 
 #banner-four {
-  background-color: #ffffff;
+  background-color: transparent;
     margin-top:  -171px;;
     position: relative;
- /* z-index: -1 !important; */
+   z-index: -1 !important; 
 
 }
 
@@ -190,7 +190,7 @@ h3 {
     background-image: url(../img/man.png);
     position: relative;
     margin-top: -190px;
-    /* z-index: -2; */
+    z-index: -2; 
 }
 
 #banner-six {

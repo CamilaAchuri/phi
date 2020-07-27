@@ -4,7 +4,6 @@ $(document).ready(function(){
      triggerElement: '#banner-four'
  })
  .setClassToggle('#banner-four', 'fade-in')
- .addIndicators()
  .addTo(controller);
 
 
@@ -16,7 +15,8 @@ $(function () { // wait for document ready
     // init
     var controller = new ScrollMagic.Controller({
         globalSceneOptions: {
-            triggerHook: 'onLeave'
+            triggerHook: 'onLeave',
+            duration: 50
            }
     });
 
