@@ -115,6 +115,20 @@ h3 {
   z-index: 1;
 }
 
+
+#brain {
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-12%);
+  z-index: 1;
+  animation: zoomIn; 
+  animation-duration: 2s; 
+}
+
+
+
+
 #banner-two {
   padding: 128px 0;
   background-image: url("../img/lines.svg");
@@ -127,16 +141,6 @@ h3 {
 }
 
 
-
-
-#brain {
-  position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -80%);
-    animation: zoomIn; 
-    animation-duration: 2s; 
-}
 
 #info-banner-two {
     width: 50%;
