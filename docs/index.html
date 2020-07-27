@@ -4,96 +4,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
-  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <link rel="stylesheet" href="static/css/styles.css">
 </head>
 
 <body>
-    <script src="https://unpkg.com/intersection-observer"></script>
-    <script src="https://unpkg.com/scrollama"></script> 
-    <script src = "static/js/phi.js"></script>
+
+    <!-- <div id="pinContainer"> -->
     <div id="banner-one-two">
-        <div id="banner-one" class = "background-center">
-            <div class = "padding-titles animate__animated animate__slideInLeft">
-            <h1>PHI</h1>
-            <h2 class = "dark-h2">
-                Biosensor emocional </br> implantable.
-            </h2>
-        </div>
+        <section id="banner-one" class="select-animate background-center">
+            <div class="padding-titles animate__animated animate__slideInLeft">
+                <h1>PHI</h1>
+                <h2 class="dark-h2">
+                    Biosensor emocional </br> implantable.
+                </h2>
+            </div>
             <img id="circle" src="static/img/circle.svg" alt="">
-            <div id = "names-autors-giro" class = "names-autors">
-            <p>Teoría del diseño - Maedi - Fadu</p>
-            <p> Mayayo - Achuri - Quintana</p>
+            <div id="names-autors-giro" class="names-autors">
+                <p>Teoría del diseño - Maedi - Fadu</p>
+                <p> Mayayo - Achuri - Quintana</p>
+            </div>
+        </section>
+
+        <section id="banner-two" class="select-animate background-center">
+            <div class="container-banner-two">
+                <div id="info-banner-two">
+                    <h3>Artefacto </br>Bio-Integrado</h2>
+                        <p class="intros"> Entendemos a las emociones como reacciones psicofisiológicas que representan
+                            modos de adaptación a ciertos estímulos del individuo cuando percibe algo,
+                            y a la empatía como la participación afectiva de una persona en una realidad
+                            ajena a ella.
+                        </p>
+                </div>
+            </div>
+        </section>
+        <section id="banner-three" class="select-animate background-center">
+  
+        </section>
+        <img id="brain" src="static/img/brain.png" alt="">
+
+
+    </div>
+
+    <section id="banner-four" class="select-animate">
+        <img id="chip" class="animation-chip fade-in" src="static/img/processor.png" alt="">
+    </section>
+
+    <div id="banner-five" class="select-animate background-top">
+    </div>
+
+    <div id="banner-six" class="select-animate background-center">
+    </div>
+
+
+
+    <div id="banner-seven">
+
+        <div>
+            <h2 class="center-text">Unite a miles de </br>
+                humanos conectados</h2>
+            <img id="map" src="static/img/mapa.svg" alt="">
+        </div>
+
+        <div id="container-form">
+            <p id="title-form">Suscribite a nuestra beta</p>
+            <form id="data-form" action="">
+                <p class="info-form">Nombres Completos </p>
+                <input type="text" name="nombre" id="nombre">
+                <p class="info-form">Email</p>
+                <input type="text" name="email" id="email">
+                <p class="info-form">Telefono</p>
+                <input type="number" name="telefono" id="telefono">
+                <button class="action info-form">Suscribirse</button>
+            </form>
+        </div>
+    </div>
+    </div>
+    <!-- </div> -->
+
+
+    <div id="footer">
+        <div class="branding-position">
+            <img src="static/img/logo.png" alt="">
+            <div id="end-names" class="names-autors">
+                <p>Teoría del diseño - Maedi - Fadu</p>
+                <p> Mayayo - Achuri - Quintana</p>
             </div>
         </div>
-       
-        <div id="banner-two" class = "background-center">
-            <div class = "container-banner-two">
-            <div id = "info-banner-two">
-            <h3>Artefacto </br>Bio-Integrado</h2>
-            <p class = "intros"> Entendemos a las emociones como reacciones psicofisiológicas que representan
-                 modos de adaptación a ciertos estímulos del individuo cuando percibe algo, 
-                 y a la empatía como la participación afectiva de una persona en una realidad
-                  ajena a ella.
-            </p>
-        </div>
-        </div>
-        </div>
-    <div id = "banner-three" class = "background-center">
-
-    </div>
-       <img id = "brain" src="static/img/brain.png" alt="">
+    <!-- </div> -->
 
 
-    </div>
-
-<div id = "banner-four" >
-    <img id = "chip" src="static/img/processor.png" alt="">
-</div>
-
-<div id = "banner-five" class = "background-top">
-</div>
-
-<div id = "banner-six" class = "background-center">
-</div>
-
-<div id = "banner-seven">
-
-    <div>
-    <h2 class = "center-text">Unite a miles de </br>
-        humanos conectados</h2>
-    <img id = "map" src="static/img/mapa.svg" alt="">
-</div>
-
- <div id = "container-form"> 
-     <p id = "title-form">Suscribite a nuestra beta</p> 
-<form id = "data-form" action="">
-    <p class = "info-form">Nombres Completos </p>
-    <input type="text" name="nombre" id="nombre">
-    <p class = "info-form">Email</p>
-    <input type="text" name="email" id="email">
-    <p class = "info-form">Telefono</p>
-    <input type="number" name="telefono" id="telefono">
-    <button class = "action info-form">Suscribirse</button>
-</form>
-</div>
-</div> 
-<!-- </div> -->
-
-
-<div id = "footer">
-    <div class = "branding-position">
-    <img src="static/img/logo.png" alt="">
-    <div id = "end-names" class = "names-autors">
-        <p>Teoría del diseño - Maedi - Fadu</p>
-        <p> Mayayo - Achuri - Quintana</p>
-        </div>
-    </div>
-</div>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.velocity.min.js"></script>
+    <script src="static/js/phi.js"></script>
 
 </body>
 
