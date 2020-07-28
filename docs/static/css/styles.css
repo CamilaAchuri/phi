@@ -195,16 +195,25 @@ h3 {
 #banner-six {
 	height: 454px;
 	background-image: url(../img/general.png);
-	position: relative;
 }
 
 #banner-eight {
-	height: 1100px;
+	height: 100px;
 }
 
-#map {
-	display: block;
-	margin: 0 auto;
+#banner-nine {
+  height: 100vh;
+  background-image: url(../img/people.png);
+  margin-top: -5%;
+  margin-bottom: 10px;
+}
+
+#banner-map {
+  background-image: url(../img/mapa.svg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -10;
 }
 
 .info-form {
@@ -216,17 +225,17 @@ h3 {
 #container-form {
 	background: #ffffff;
 	height: 599px;
-	width: 598px;
-	position: absolute;
+  width: 598px;
+  position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
-	z-index: 1;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	border-radius: 6px;
-	box-shadow: 0px 15px 20px -9px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 15px 20px -9px rgba(0, 0, 0, 0.3);
+  transform: translate(-50%, -80%);
 }
 
 #title-form {
@@ -337,6 +346,5 @@ button {
 
 .parallax{
   background: #ffffff;
-  position: fixed;
 }
 
