@@ -4,7 +4,7 @@ $(function() {
 
 	items.forEach(function(element, index) {
 		let height = element.clientHeight; //height of current element
-		console.log(height);
+
 		var controller = new ScrollMagic.Controller({
 			globalSceneOptions: {
 				duration: height,
@@ -32,6 +32,5 @@ $(function() {
 // $(document).ready(function(){
 
 // });
-
 
 	

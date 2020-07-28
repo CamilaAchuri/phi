@@ -333,3 +333,10 @@ button {
   /*background-color: greenyellow;*/
   padding-top: 40vh;
 }
+
+
+.parallax{
+  background: #ffffff;
+  position: fixed;
+}
+
