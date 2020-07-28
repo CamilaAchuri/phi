@@ -298,53 +298,22 @@ button {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 15px;
 }
 
 .wrapper {
-	width: 45%;
-	margin: 50px auto;
 	display: flex;
-	display: grid;
-  grid-template-columns: 0.7fr 0.3fr;
-  grid-gap: 5px;
 }
 
  
 
-.container{
-  /*background-color: darkgray;*/
-  width: 80%;
-  font-size: 30px;
-  margin: auto;
- /*  border-radius: 30px;
-  border-style: groove; */
+.slider-foto-img {
+ display: grid;
+ grid-template-columns: 0.5fr 0.5fr;
+ grid-gap: 10px;
+ margin: 0 auto;
+ justify-content: center;
+ width: 90%;
+ margin-top: 15px;
+ margin-bottom: 30px;
 }
-
-.textWrapper{
-  width: 45%;
-  margin: 20px;
-  padding-top: 25vh;
-  padding-bottom: 25vh;
-  display: flex;
-}
-.textIntro{
-  width: 45%;
-  margin: auto;
-  padding-top: 25vh;
-  padding-bottom: 25vh;
-  font-size: 20px;
-}
-.stickyImage{
-  width: 39%;
-  height: 100%;
-  position: absolute;
-  font-size: 100px;
-  /*background-color: greenyellow;*/
-  padding-top: 40vh;
-}
-
-
-.parallax{
-  background: #ffffff;
-}
-
