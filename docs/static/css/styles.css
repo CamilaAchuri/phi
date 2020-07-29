@@ -40,8 +40,6 @@ h3 {
 
 .center-text {
 	text-align: center;
-	padding-top: 5%;
-	padding-bottom: 3%;
 }
 
 .intros {
@@ -288,8 +286,10 @@ button {
 }
 
 .img-size {
-	width: 386px;
-	height: 386px;
+	width: 290px;
+	height: 290px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 
@@ -299,21 +299,30 @@ button {
   align-items: center;
   flex-direction: column;
   padding: 15px;
+  width: 290px;
+  height: 290px;
+  box-shadow: 0px 15px 20px -9px rgba(0, 0, 0, 0.3);
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 6px;
 }
 
 .wrapper {
 	display: flex;
 }
 
+.black-wrapper {
+ background: #000000;
+ color: #ffffff;
+}
  
 
 .slider-foto-img {
  display: grid;
  grid-template-columns: 0.5fr 0.5fr;
- grid-gap: 10px;
  margin: 0 auto;
  justify-content: center;
- width: 90%;
+ width: 80%;
  margin-top: 15px;
  margin-bottom: 30px;
 }
